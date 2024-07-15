@@ -1,0 +1,112 @@
+# User Registration
+
+type = "new_user"
+content = "<username>"
+...rest of the fields are null
+
+# Success
+type = "user_registered"
+username = null
+content = null
+cells = null
+
+# Failure
+type = "registration_error"
+username = null
+content = null
+cells = null
+
+#### CLIENT REQUEST #####
+
+# This is to request a session
+type = "request_session"
+username = "right_finger"
+content = "AI/Human"
+
+#### SERVER RESPONSE #####
+
+# AI Response
+type = "start_AI_session"
+username = null
+content = "<session_id>"
+cells = null
+
+# Human Response
+type = "start_session"
+username = null
+content = "<session_id>;p1=<username>;p2=<username>"
+cells = null
+
+# Waiting for opponent
+type = "wait_for_opponent"
+username = null
+content = null
+cells = null
+
+# Place boats
+type = "p1_boats"
+content = <sessionID>
+username = <sender>
+cells = [[0,0], [1, 1]]
+
+type = "p2_boats"
+content = <sessionID>
+username = <sender>
+cells = [[0,0],[1,1]]
+
+# Green Light Response (send immediately if AI game)
+type = "start_game"
+content = <sessionID>
+username = null
+cells = null
+
+type = "wait_for_other_player_boats"
+content = <sessionID>
+username = null
+cells = null
+
+# Player Turn
+type = "turn"
+content = <sessionID>
+username = <player>
+cells = [[0, 1]]
+
+-------- The result of the current player's turn -----------
+
+# Hit
+type = "hit"
+username = null
+content = null
+cells = [[0, 0]]
+
+# Miss
+type = "miss"
+username = null
+content = null
+cells = null
+
+# Win
+type = "win_game"
+username = null
+content = null
+cells = null
+
+-------- Result of the opponent's turn -----------
+
+# sink
+type = "sink"
+username = null
+content = null
+cells = [[0, 0]]
+
+# Continue
+type = "continue"
+username = null
+content = null
+cells = null
+
+# Lose
+type = "lose_game"
+username = null
+content = null
+cells = null
