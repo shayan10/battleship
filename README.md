@@ -9,7 +9,6 @@ A multiplayer Battleship game implementation with advanced features.
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Team Members](#team-members)
-7. [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -47,11 +46,3 @@ This project is a networked implementation of the classic Battleship game, featu
 - Anupam Sai Sistla: Backend development, client-server integration, and project reporting
 - Nathan Trinh: Frontend development, wireframing, and GUI design
 - Rayyan Athar: Frontend implementation, GUI components, and game mechanics
-
-## Acknowledgements
-
-- This project was developed as part of the CS-342 course.
-- Special thanks to GitHub Copilot and ChatGPT for assistance in debugging and code generation.
-- Java documentation resources were invaluable in implementing various features.
-
-[Note: This README is based on the provided project report. You may need to adjust or add sections as needed, especially for installation and usage instructions.]
