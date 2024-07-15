@@ -16,6 +16,9 @@ A multiplayer Battleship game implementation with advanced features.
 
 This project is a networked implementation of the classic Battleship game, featuring both player-vs-player and player-vs-AI modes. It includes advanced features such as an Elo ranking system, asynchronous AI processing, and a player-to-player chat system.
 
+![Screenshot from 2024-07-15 18-32-14](https://github.com/user-attachments/assets/9ac086c1-d00a-4106-82c5-4e50d4e77f4a)
+
+
 ## Features
 
 - Multiplayer gameplay (PvP and PvAI)
